@@ -11,6 +11,7 @@ body {
 .logo {
   font-size: 24px;
   font-weight: bold;
+  padding-right: 640px;
 }
 header {
   background-color:skyblue;
@@ -131,4 +132,19 @@ nav a:hover {
 
 .footer-social .social-icon:hover {
     transform: scale(1.2);
+}
+.arrow-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    padding-top: 30px;
+}
+.arrow-btn:hover .arrow-icon {
+    stroke: white;
+    transform: scale(1.2);
+}
+.arrow-btn:active .arrow-icon {
+    stroke: white;
+    transform: scale(1.1);
 }
