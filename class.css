@@ -12,9 +12,10 @@ body {
   font-size: 24px;
   font-weight: bold;
   padding-right: 640px;
+  color: white;
 }
 header {
-  background-color:skyblue;
+  background-color: #1a1f36;
   padding: 0 20px;
   display: flex; 
   justify-content: space-between; 
@@ -27,7 +28,7 @@ nav {
    align-items: flex-end;
 }
 nav a {
-  color:black;
+  color:white;
   text-decoration: none;
   margin-left: 50px; 
   font-weight: 800;
@@ -81,8 +82,8 @@ nav a:hover {
 	max-height: 100%;
 }
 .main-footer {
-    background-color: skyblue;
-    color: black;
+    background-color: #1a1f36;
+    color: white;
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
     padding: 40px 50px;
@@ -143,6 +144,8 @@ nav a:hover {
 .arrow-btn:hover .arrow-icon {
     stroke: white;
     transform: scale(1.2);
+        color: white;
+
 }
 .arrow-btn:active .arrow-icon {
     stroke: white;
